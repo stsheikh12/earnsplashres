@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EarnSplash - Make Money Online</title>
+    <meta name="description" content="EarnSplash - Make Money Online The Site can Help you in Earning Money Online by Posting Well-Researched Written Articles. Different ways of earning online organized in the form of Categories is the way to go for this site.">
+    <link rel="stylesheet" href="/CSS/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* Nav A */
+
+.nav-a {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1560px;
+    margin: 0 auto;
+    padding: 1em;
+    align-items: center;
+    height: 40px;
+}
+.nav-a4 {
+    width: 40%;
+}
+.nav-a-ul {
+    display: flex;
+    justify-content: flex-end;
+}
+.nav-a-list {
+    list-style: none;
+    padding: 0.5em;
+}
+.nav-a-link {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: #0BC772;
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 0.4em 1em;
+}
+.nav-a-link-active {
+    border-bottom: 1px solid #0AB86A;
+}
+.nav-a-ul-c {
+    position: absolute;
+    margin: 0.5em;
+    background: #1F1F1F;
+    display: block;
+    opacity: 0;
+    visibility: hidden;
+}
+.nav-a-list-c {
+    padding: 0.5em 0.9em;
+    list-style: none;
+}
+.nav-a-link-c {
+    font-size: 0.75rem;
+    color: #F1F1F1;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+.nav-a-list:last-child {
+    cursor: pointer;
+}
+.nav-a-list:last-child:hover > ul {
+    opacity: 1;
+    visibility: visible;
+}
+.nav-a-list-c:hover > a {
+    color: #3EAEF4;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 1280px) {
+    .nav-a {
+        max-width: 1220px;
+    }
+}
+@media (max-width: 600px) {
+    .nav-a {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .nav-a4 {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+/* X RESPONSIVE X */
+
+/* X Nav A X */
+    </style>
+</head>
+<body>
+    <header>
+        <div class="nav-a">
+            <div class="logo">
+                <a href="/index.html"><img src="/Assets/Home/logo.png" alt="" srcset="" width="150px"></a>
+            </div>
+            <div class="nav-a4">
+                <ul id="nav-a-ul" class="nav-a-ul">
+                    <li class="nav-a-list"><a href="#" class="nav-a-link nav-a-link-active">Home</a></li>
+                    <li class="nav-a-list"><a href="#" class="nav-a-link ">About</a></li>
+                    <li class="nav-a-list"><a href="#" class="nav-a-link ">Blog</a></li>
+                    <li class="nav-a-list"><a class="nav-a-link ">Contact</a>
+                        <ul class="nav-a-ul-c">
+                            <li class="nav-a-list-c"><a href="#" class="nav-a-link-c">Instagram</a></li>
+                            <li class="nav-a-list-c"><a href="#" class="nav-a-link-c">Hire US</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+</body>
+<script src="/JS/Home.js"></script>
+</html>
